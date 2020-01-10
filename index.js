@@ -4,7 +4,7 @@ $(function(shoppingList){
       event.preventDefault();
   
       const listItem = $('.js-shopping-list-entry').val();
-  
+     
       $('.js-shopping-list-entry').val('');
   
       $('.shopping-list').append(
